@@ -27,7 +27,7 @@ li{
     border-radius: 2%;
     background-color:rgba(255, 255, 255,0.9);
     margin-top: 7%;
-    margin-left: 65%;
+    margin-left: 70%;
     position:absolute;
     box-shadow: 25px 10px 5px rgba(20, 2, 6, 0.3);
 }
@@ -37,7 +37,7 @@ li{
     overflow: hidden;
 }
 .logo{
-    padding-left: 30%;
+    padding-left: 35%;
     position: relative;
     color: black;
     font-family: Sofia;
@@ -111,9 +111,30 @@ li{
     text-decoration: none;
     font-family: Sofia;
     font-style: italic;
-    position: relative;
+    position:relative;
 }
 .create:hover{
     background-color: black;
     font-size: large;
+}
+.container{
+  background-color: rgba(222,222,222,0.3);
+  width: 64%;
+  height: 60%;
+  margin-top: 12%;
+  position: absolute;
+  margin-left: 2% ;
+  display: flex;
+  padding: 15px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.element1{
+  background-color:rgba(218, 214, 214, 0.99);
+  padding: 15px;
+  width: 19%;
+  height: 70%;
 }
