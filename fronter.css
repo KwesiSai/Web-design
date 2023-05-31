@@ -138,3 +138,9 @@ li{
   width: 19%;
   height: 70%;
 }
+.text{
+  font-family:Trirong;
+  font-style: oblique;
+  margin-top: 120%;
+  position: relative;
+}
