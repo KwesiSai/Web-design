@@ -1,4 +1,7 @@
+* {
+  box-sizing: border-box;
 
+}
 body{
   background-image: linear-gradient(45deg,rgba(63, 115, 139, 0.5), rgba(168, 63, 218, 0.7),rgba(223, 106, 164, 0.3));
   background-size: cover;
@@ -145,6 +148,10 @@ font-style: oblique;
 margin-top: 120%;
 position: relative;
 font-size: medium;
+
+}
+.width{
+  max-width: 1100px;
 
 }
 img{

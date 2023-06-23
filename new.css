@@ -1,0 +1,99 @@
+*{
+    line-height: 1.6;
+    box-sizing:border-box;
+}
+/*main elements*/
+body{
+    background: linear-gradient(80deg, rgba(255, 133, 239,0.5),rgba(243, 77, 132,0.5),rgba(24, 179, 190,0.5));
+    font-family: Trirong, sans-serif, 'Courier New', Courier, monospace;
+    margin:0;
+    top: 0;
+    font-size: 20px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.collect a:hover{
+    border-bottom: solid 3.5px black;
+    color:blue;
+}
+.collect ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.collect li{
+    padding: 0 30px;
+}
+/*Containers*/
+.collect{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contain{
+    height: 65px;
+    background-color: rgba(230, 223, 223, 0.5);
+}
+.logo{
+    margin-left: 40px;
+    font-style: italic;
+    font-size: larger;
+}
+.images img{
+    height: 200px;
+    width: 150px;
+    position: relative;
+
+}
+.subelements{
+          display: grid;
+          grid-template-columns:3fr 1fr ;
+          justify-content: space-between;
+          gap:80px;
+          margin-top: 0px;
+         
+}
+.imagecontain{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.tiles{
+    background-color: rgba(230, 223, 223, 0.5);
+    margin-top: 20px;
+    height: 400px;
+    position: relative;
+    margin-left:10px;
+
+}
+.signbox{
+    margin-top: 100px;
+    background:white;
+    width: 300px;
+    height:400px;
+    border-radius: 15px;
+   
+}
+.signbox form{
+    
+}
+.elements{
+    position: relative;
+    height: 400px;
+    background-color: rgba(230, 223, 223, 0.5);
+}
+.boxments{
+    padding: 10px 0;
+    margin: 0px 10px;
+}
+.boxments input{
+    border: 0;
+    border-bottom: solid 1px black;
+    width: 100%;
+    font-size: 20px;
+}
+.boxments input:focus{
+    outline:none;
+}
