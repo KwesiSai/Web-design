@@ -132,5 +132,11 @@ a{
 .images p{
     font-size: 18px;
     text-align:center;
-    font-style: oblique;
+}
+.signbox p{
+    font-size: 15px;
+    text-align: center;
+}
+.signbox a{
+    color:rgb(206, 111, 111);
 }
